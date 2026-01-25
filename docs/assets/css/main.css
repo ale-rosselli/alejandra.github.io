@@ -5016,6 +5016,7 @@ a img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     width: 90%;
     max-width: 960px;
     margin: 0 auto
@@ -5032,9 +5033,7 @@ a img {
 }
 
 .user-projects img {
-    display: flex;
     max-width: 100%;
-    align-items: center;
     height: auto;
     border-radius: 5px
 }
