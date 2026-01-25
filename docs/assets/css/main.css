@@ -5012,7 +5012,7 @@ a img {
     margin: 5px auto
 }
 
-#projects {
+#research {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -5022,7 +5022,7 @@ a img {
 }
 
 @media only screen and (min-width:550px) {
-    #projects {
+    #research {
         width: 80%
     }
 }
@@ -5126,3 +5126,5 @@ a img {
     margin: 0;
     color: #fff
 }
+
+.italic-word { font-style: italic; }
