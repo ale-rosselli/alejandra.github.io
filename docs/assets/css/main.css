@@ -4867,7 +4867,7 @@ a img {
 @media only screen and (min-width:550px) {
     .header .site-title {
         margin: 0;
-        font-size: 60px
+        font-size: 80px
     }
 }
 
@@ -4876,17 +4876,17 @@ a img {
     display: block;
     line-height: 1;
     color: #fff;
-    margin-top: 10px
+    margin-top: 15px
 }
 
 @media only screen and (min-width:550px) {
     .header .site-description {
-        font-size: 40px
+        font-size: 35px
     }
 }
 
 .header-links {
-    margin: 10px
+    margin: 15px
 }
 
 .header-links .link {
@@ -4916,7 +4916,7 @@ a img {
 
 .header-icons .icon {
     height: 20px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 50%;
     border: 2px solid #fff;
     transition: all .7s;
