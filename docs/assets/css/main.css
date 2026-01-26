@@ -10,6 +10,8 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(90deg, #051634 0%, #000000 50%, #051634 100%);
     margin: 0;
     min-height: 100vh; 
@@ -27,7 +29,11 @@ figcaption,
 figure,
 footer,
 header,
-main,
+
+main {
+    flex: 1;
+}
+
 menu,
 nav,
 section {
@@ -5116,7 +5122,7 @@ a img {
     background: linear-gradient(90deg, #051634 0%, #000000 50%, #051634 100%);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
-    margin-top: 100px;
+    margin-top: 0;
     text-align: center;
     color: #fff
 }
