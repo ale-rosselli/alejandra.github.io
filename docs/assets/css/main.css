@@ -4829,6 +4829,12 @@ a img {
     border: 0
 }
 
+#naker-bg {
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+}
+
 #particles-js {
     background: #051634;
     /* fallback for old browsers */
@@ -4845,6 +4851,7 @@ a img {
     background-size: cover;
     background-attachment: fixed;
     z-index: -1;
+    pointer-events: none;
 }
 
 #particles-js .particles-js-canvas-el {
