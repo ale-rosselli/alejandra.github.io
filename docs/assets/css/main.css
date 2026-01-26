@@ -4826,9 +4826,9 @@ a img {
 #particles-js {
     background: #051634;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #000000, #051634);
+    background: -webkit-linear-gradient(90deg, #051634 0%, #000000 50%, #051634 100%);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #000000, #051634);
+    background: linear-gradient(90deg, #051634 0%, #000000 50%, #051634 100%);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
@@ -5110,9 +5110,9 @@ a img {
 .footer {
     background: #051634;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #000000, #051634);
+    background: -webkit-linear-gradient(90deg, #051634 0%, #000000 50%, #051634 100%);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #000000, #051634);
+    background: linear-gradient(90deg, #051634 0%, #000000 50%, #051634 100%)
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
     margin-top: 100px;
