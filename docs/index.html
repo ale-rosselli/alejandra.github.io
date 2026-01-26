@@ -197,52 +197,18 @@
     <div id="particles-js"></div>
 
     <script>
-      // Detect if the device is mobile (simple width check)
-      const isMobile = window.innerWidth < 768; // adjust breakpoint if needed
+      const isMobile = window.innerWidth < 768;
     
-      // Base particle config
-      const baseConfig = {
-        environment: {
-          gradient: "radial",
-          sensitivity: 0.8,
-          colorStart: [0, 0, 0, 1],
-          colorEnd: [5, 22, 52, 1]
-        },
-        particle: {
-          life: 5,
-          power: 0.01,
-          texture: "https://res.cloudinary.com/naker-io/image/upload/v1566560053/circle_05.png",
-          number: isMobile ? 200 : 482, // fewer particles on mobile
-          colorStart: [255, 255, 255, 0.13],
-          colorEnd: [134, 153, 197, 0.52],
-          sizeStart: 0.44,
-          sizeEnd: 0.88,
-          direction1: { x: 100, y: 0, z: 100 },
-          direction2: { x: -100, y: 0, z: -100 }
-        },
-        interactivity: {
-          onhover: {
-            enable: !isMobile, // disable hover on mobile
-            mode: "grab"
-          },
-          onclick: {
-            enable: true,
-            mode: "push"
-          },
-          resize: true
-        },
-        modes: {
-          grab: { distance: 400, line_linked: { opacity: 1 } },
-          bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
-          repulse: { distance: 200, duration: 0.4 },
-          push: { particles_nb: 4 },
-          remove: { particles_nb: 2 }
-        },
-        waterMark: false
-      };
+      // Naker.io prefers JSON-style strings, so we'll modify only the parts we need
+      const configString = `{|environment|:{|gradient|:|radial|,|sensitivity|:0.8,|colorStart|:[0,0,0,1],|colorEnd|:[5,22,52,1]},
+        |particle|:{|life|:5,|power|:0.01,|texture|:|https://res.cloudinary.com/naker-io/image/upload/v1566560053/circle_05.png|,
+        |number|:${isMobile ? 200 : 482},|colorStart|:[255,255,255,0.13],|colorEnd|:[134,153,197,0.52],|sizeStart|:0.44,|sizeEnd|:0.88,
+        |direction1|:{|x|:100,|y|:0,|z|:100},|direction2|:{|x|:-100,|y|:0,|z|:-100}},|waterMark|:false,
+        |interactivity|:{|onhover|:{|enable|:${!isMobile},|mode|:|grab|},|onclick|:{|enable|:true,|mode|:|push|},|resize|:true}
+      }`;
     
-      // Initialize particles
-      particlesJS("particles-js", baseConfig);
+      // Initialize naker.io background
+      particlesJS("particles-js", JSON.parse(configString.replace(/\|/g, '"')));
     </script>
 
 
