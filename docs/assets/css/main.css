@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color:#051634;
+    background-color:#000000;
     margin: 0;
     padding: 0;
     font-size: 100%;
@@ -4791,7 +4791,7 @@ strong {
     margin-top: 1em;
     padding-top: 1em;
     line-height: 1.25;
-    color: #333
+    color: #F5F5F5
 }
 
 h2 {
@@ -5087,9 +5087,9 @@ a img {
     display: inline-block;
     margin: 10px 0;
     padding: 5px;
-    color: #051634;
+    color: #00000000;
     background-color: transparent;
-    border: 1px solid #051634;
+    border: 1px solid #ffffff;
     border-radius: 10px;
     text-align: center;
     outline: 0;
@@ -5100,8 +5100,8 @@ a img {
 
 .project-link:active,
 .project-link:hover {
-    background-color: #5347a8;
-    border-color: #5347a8;
+    background-color: #439eea;
+    border-color: #439eea;
     color: #fff;
     transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
 }
