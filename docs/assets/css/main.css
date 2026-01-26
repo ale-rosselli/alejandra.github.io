@@ -4850,7 +4850,7 @@ a img {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    z-index: -1;
+    z-index: 0;
     pointer-events: none;
 }
 
