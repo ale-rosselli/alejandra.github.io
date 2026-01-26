@@ -4852,6 +4852,7 @@ a img {
     background-attachment: fixed;
     z-index: 0;
     pointer-events: none;
+    inset: 0;
 }
 
 #particles-js .particles-js-canvas-el {
