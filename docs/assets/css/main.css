@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
 @import url(https://fonts.googleapis.com/css?family=Rubik);
 @import url(https://fonts.googleapis.com/css2?family=Young+Serif);
+@import url(https://fonts.googleapis.com/css2?family=Prata);
 @import "{{ site.theme }}";
 
 html {
@@ -4862,7 +4863,7 @@ a img {
     align-items: center; 
     color: #fff;
     position: absolute;
-    font-family: 'Young Serif';
+    font-family: 'Prata';
     width: 80%;
     min-height: 100vh;
     top: 50%;
