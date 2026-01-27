@@ -4844,8 +4844,7 @@ a img {
     background: linear-gradient(90deg, #051634 0%, #000000 50%, #051634 100%);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    display: flex;
-    vertical-align: bottom;
+    position: absolute; 
     width: 100%;
     min-height: 100vh;
     background-repeat: no-repeat;
@@ -4853,7 +4852,6 @@ a img {
     background-attachment: fixed;
     z-index: 0;
     pointer-events: none;
-    inset: 0;
 }
 
 #particles-js .particles-js-canvas-el {
