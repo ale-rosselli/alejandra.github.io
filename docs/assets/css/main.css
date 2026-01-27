@@ -5144,3 +5144,7 @@ a img {
 }
 
 .italic-word { font-style: italic; }
+
+.left-text {
+    text-align: left;
+}
