@@ -4877,6 +4877,7 @@ a img {
     line-height: 1;
     color: #fff;
     margin: 0;
+    text-align: center;
 }
 
 @media only screen and (min-width:550px) {
@@ -4892,6 +4893,7 @@ a img {
     line-height: 1;
     color: #fff;
     margin-top: 15px
+    text-align: center;
 }
 
 @media only screen and (min-width:550px) {
