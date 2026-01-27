@@ -16,7 +16,7 @@ body {
     background: linear-gradient(90deg, #051634 0%, #000000 50%, #051634 100%);
     margin: 0;
     min-height: 100vh; 
-    padding: 0;
+    padding-top: 100vh;
     font-size: 100%;
     line-height: 1.5;
     color: #F5F5F5;
@@ -4863,19 +4863,15 @@ a img {
     z-index: 1;
     text-align: center;
     color: #fff;
-    position: relative;
+    position: absolute;
     font-family: 'Rubik', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* vertical centering */
-    align-items: center;
     width: 80%;
     min-height: 100vh;
-    /*top: 50%;
+    top: 50%;
     left: 50%;
     margin: 0 auto;
     -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)*/
+    transform: translate(-50%, -50%)
 }
 
 .header .site-title {
