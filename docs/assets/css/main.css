@@ -4,6 +4,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Young+Serif);
 @import url(https://fonts.googleapis.com/css2?family=Prata);
 @import url(https://fonts.googleapis.com/css2?family=Fraunces);
+@import url(https://fonts.googleapis.com/css2?family=Libre+Bodoni);
 @import "{{ site.theme }}";
 
 html {
@@ -4864,7 +4865,7 @@ a img {
     align-items: center; 
     color: #fff;
     position: absolute;
-    font-family: 'Frances';
+    font-family: 'Fraunces';
     width: 80%;
     min-height: 100vh;
     top: 50%;
