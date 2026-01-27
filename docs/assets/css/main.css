@@ -26,6 +26,7 @@ figcaption,
 figure,
 footer,
 header,
+main,
 
 
 menu,
@@ -5125,7 +5126,7 @@ a img {
     background: linear-gradient(90deg, #051634 0%, #000000 50%, #051634 100%);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
-    margin-top: 0;
+    margin-top: 100px;
     text-align: center;
     color: #fff
 }
