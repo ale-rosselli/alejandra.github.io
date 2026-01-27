@@ -4865,10 +4865,9 @@ a img {
     z-index: 1;
     text-align: center;
     color: #fff;
-    position: relative;
     font-family: 'Rubik', sans-serif;
     width: 80%;
-    margin: 0 auto;
+    align-self: center;
 }
 
 .header .site-title {
