@@ -4863,14 +4863,19 @@ a img {
     z-index: 1;
     text-align: center;
     color: #fff;
-    position: absolute;
+    position: relative;
     font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical centering */
+    align-items: center;
     width: 80%;
-    top: 50%;
+    min-height: 100vh;
+    /*top: 50%;
     left: 50%;
     margin: 0 auto;
     -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%)*/
 }
 
 .header .site-title {
