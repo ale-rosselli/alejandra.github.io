@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik);
 @import url(https://fonts.googleapis.com/css2?family=Young+Serif);
 @import url(https://fonts.googleapis.com/css2?family=Prata);
+@import url(https://fonts.googleapis.com/css2?family=Fraunces);
 @import "{{ site.theme }}";
 
 html {
