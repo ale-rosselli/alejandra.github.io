@@ -4856,6 +4856,7 @@ a img {
 .header {
     z-index: 1;
     text-align: center;
+    align-items: center; 
     color: #fff;
     position: absolute;
     font-family: 'Rubik', sans-serif;
