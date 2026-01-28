@@ -5116,7 +5116,8 @@ a img {
     margin: 10px 0;
     padding: 5px;
     color: #ffffff;
-    background-color: transparent;
+    background-color: #ffffff;
+    opacity: 0.3;
     border: 1px solid #ffffff;
     border-radius: 10px;
     text-align: center;
