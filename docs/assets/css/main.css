@@ -5150,8 +5150,8 @@ a img {
     text-align: center;
     color: #fff;
     min-width: 1140px;
-    -webkit-transform: translate(-15%, -15%);
-    transform: translate(-15%, -15%)
+    /*-webkit-transform: translate(-15%, -15%);
+    transform: translate(-15%, -15%)*/
 }
 
 .footer .love {
