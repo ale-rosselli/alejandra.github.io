@@ -5056,6 +5056,7 @@ a img {
     max-width: 100%;
     height: auto;
     border-radius: 5px
+    align-items: center;
 }
 
 .user-projects h5 {
