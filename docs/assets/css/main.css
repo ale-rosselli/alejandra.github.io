@@ -5087,6 +5087,7 @@ a img {
     .images-right {
         float: right;
         width: 48%
+        align-items: center;
     }
 
     .images-right img {
@@ -5096,6 +5097,7 @@ a img {
     .images-left {
         float: left;
         width: 48%
+        align-items: center;
     }
 
     .images-left img {
