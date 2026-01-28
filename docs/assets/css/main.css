@@ -5073,6 +5073,7 @@ a img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
+    vertical-align: middle;
 }
 
 .user-projects h5 {
