@@ -4943,6 +4943,18 @@ a img {
     text-align: center
 }
 
+.icon-svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;           /
+  transition: color 0.3s ease;
+}
+
+.icon-svg:hover {
+    color: #051634;
+    background: #fff
+}
+
 .down,
 .header-icons .icon {
     color: #fff;
