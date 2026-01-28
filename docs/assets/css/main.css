@@ -5128,8 +5128,8 @@ a img {
 
 .project-link:active,
 .project-link:hover {
-    background-color: #439eea;
-    border-color: #439eea;
+    background-color: ##B289E8;
+    border-color: ##B289E8;
     color: #fff;
     transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
 }
