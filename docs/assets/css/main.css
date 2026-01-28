@@ -4936,19 +4936,20 @@ a img {
     }
 }
 
+.header-icons .icon-svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;     
+  display: block;
+}
+
 .header-icons {
     z-index: 3;
     display: flex;
     justify-content: center;
-    text-align: center
+    text-align: center;
 }
 
-.icon-svg {
-  width: 1em;
-  height: 1em;
-  fill: currentColor;           /
-  transition: color 0.3s ease;
-}
 
 .icon-link {
   color: #ffffff;              
