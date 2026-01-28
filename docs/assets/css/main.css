@@ -4937,8 +4937,8 @@ a img {
 }
 
 .header-icons .icon-svg {
-  width: 1.2em;
-  height: 1.2em;
+  width: 2em;
+  height: 2em;
   fill: currentColor;     
   display: block;
 }
