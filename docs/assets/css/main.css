@@ -67,6 +67,14 @@ a {
     -webkit-text-decoration-skip: objects
 }
 
+a:link {
+  color: #a1317d;
+}
+
+a:visited {
+  color: #5a147d;
+}
+
 abbr[title] {
     border-bottom: none;
     text-decoration: underline dotted
