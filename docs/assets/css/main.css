@@ -5055,7 +5055,7 @@ a img {
 .user-projects img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px
+    border-radius: 5px;
     align-items: center;
 }
 
