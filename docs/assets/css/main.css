@@ -129,6 +129,12 @@ img {
     border-style: none
 }
 
+img.center {
+  display: block;
+  margin: 0 auto; 
+  width: 50%;
+}
+
 svg:not(:root) {
     overflow: hidden
 }
