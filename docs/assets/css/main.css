@@ -4970,6 +4970,7 @@ a img {
 }
 
 .header-icons .icon {
+    color: #ffffff;
     height: 20px;
     padding: 15px;
     border-radius: 50%;
@@ -4978,6 +4979,8 @@ a img {
     width: 20px;
     font-size: 20px;
     margin: 5px
+    background: transparent;
+    
 }
 
 .header-icons .icon:active,
