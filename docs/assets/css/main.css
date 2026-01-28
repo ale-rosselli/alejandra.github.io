@@ -5101,6 +5101,7 @@ a img {
 
     .contents-right,
     .images-right {
+        margin-top: 5%
         float: right;
         width: 48%
     }
@@ -5110,6 +5111,7 @@ a img {
     }
 
     .images-left {
+        margin-top: 5%
         float: left;
         width: 48%
     }
