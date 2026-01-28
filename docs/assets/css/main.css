@@ -4950,6 +4950,13 @@ a img {
   transition: color 0.3s ease;
 }
 
+.icon-link {
+  color: #ffffff;              
+  font-size: 30px;              
+  display: inline-flex;
+  align-items: center;
+}
+
 .icon-svg:hover {
     color: #051634;
     background: #fff
