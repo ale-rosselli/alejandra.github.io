@@ -5063,13 +5063,14 @@ a img {
 
 .user-projects {
     margin: 20px auto
+    display: flex;
+    align-items: center;   
 }
 
 .user-projects img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-    align-items: center;
 }
 
 .user-projects h5 {
