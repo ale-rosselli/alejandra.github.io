@@ -5148,7 +5148,7 @@ a img {
     margin-top: 100px;
     text-align: center;
     color: #fff;
-    width: 100%;
+    min-width: 1140px;
 }
 
 .footer .love {
