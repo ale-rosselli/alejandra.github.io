@@ -4960,7 +4960,7 @@ a img {
 
 .icon-svg:hover {
     color: #051634;
-    background: #fff
+    background: transparent;
 }
 
 .down,
