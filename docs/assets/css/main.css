@@ -4990,6 +4990,11 @@ a img {
     
 }
 
+.header-icons .icon:hover {
+    color: #1488CC;
+    background: #fff
+}
+
 .header-icons .icon-link:active,
 .header-icons .icon-link:hover {
     color: #ffffff;
