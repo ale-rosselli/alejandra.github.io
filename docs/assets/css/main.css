@@ -4992,6 +4992,10 @@ a img {
     background: #fff
 }
 
+#Main svg:hover circle {
+    fill: #051634;
+}
+
 @media only screen and (min-width:550px) {
     .header-icons .icon {
         width: 35px;
