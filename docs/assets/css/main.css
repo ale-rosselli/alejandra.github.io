@@ -4944,6 +4944,7 @@ a img {
 }
 
 .header-icons {
+    position: relative;
     z-index: 3;
     display: flex;
     justify-content: center;
@@ -4952,6 +4953,9 @@ a img {
 
 
 .icon-link {
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
   color: #ffffff;              
   font-size: 30px;              
   display: inline-flex;
