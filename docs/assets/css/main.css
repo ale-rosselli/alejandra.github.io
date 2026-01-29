@@ -4994,6 +4994,7 @@ a img {
 
 #Main svg:hover circle {
     fill: #051634;
+    stroke: #051634;
 }
 
 @media only screen and (min-width:550px) {
