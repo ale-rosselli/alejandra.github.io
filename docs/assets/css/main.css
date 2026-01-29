@@ -4962,7 +4962,7 @@ a img {
   align-items: center;
 }
 
-.icon-svg:hover {
+.header-icons .icon-svg:hover {
     color: #051634;
     background: transparent;
 }
@@ -4998,7 +4998,7 @@ a img {
 .header-icons .icon-link:active,
 .header-icons .icon-link:hover {
     color: #ffffff;
-    background: #ffffff;
+    background: transparent;
 }
 
 .header-icons .icon-link:hover svg{
