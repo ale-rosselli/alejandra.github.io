@@ -4986,13 +4986,18 @@ a img {
     
 }
 
-.header-icons .icon:active,
-.header-icons .icon:hover {
+.header-icons .icon-link:active,
+.header-icons .icon-link:hover {
     color: #051634;
     background: #fff
 }
 
-#Main svg:hover circle {
+.header-icons .icon-link:hover svg{
+    color: #051634;
+    background: #fff
+}
+
+.icon-link:hover circle {
     fill: #051634;
     stroke: #051634;
 }
