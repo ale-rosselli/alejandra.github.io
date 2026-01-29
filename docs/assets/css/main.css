@@ -4989,17 +4989,18 @@ a img {
 .header-icons .icon-link:active,
 .header-icons .icon-link:hover {
     color: #051634;
-    background: #fff
+    background: transparent;
 }
 
 .header-icons .icon-link:hover svg{
     color: #051634;
-    background: #fff
+    background: transparent;
 }
 
 .icon-link:hover circle {
     fill: #051634;
     stroke: #051634;
+    background: transparent;
 }
 
 @media only screen and (min-width:550px) {
