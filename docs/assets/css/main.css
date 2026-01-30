@@ -4950,6 +4950,7 @@ a img {
     display: flex;
     justify-content: center;
     text-align: center;
+    transition: all .7s;
 }
 
 
