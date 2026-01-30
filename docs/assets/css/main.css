@@ -4964,7 +4964,7 @@ a img {
 }
 
 .header-icons .icon-svg:hover {
-    color: #B289E8;
+    color: #ffffff;
     background: transparent;
 }
 
@@ -5008,8 +5008,8 @@ a img {
 }
 
 .icon-link:hover circle {
-    fill: #051634;
-    stroke: #051634;
+    fill: #ffffff;
+    stroke: #ffffff;
     background: transparent;
 }
 
