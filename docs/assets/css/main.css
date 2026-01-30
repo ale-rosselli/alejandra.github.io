@@ -4867,7 +4867,8 @@ a img {
 
 #particles-js .particles-js-canvas-el {
     width: 100% !important;
-    height: 100% !important
+    height: 100% !important;
+    pointer-events: none;
 }
 
 .header {
