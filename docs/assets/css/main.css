@@ -4968,6 +4968,14 @@ a img {
     background: transparent;
 }
 
+.icon-svg path {
+  fill: #ffffff;
+}
+
+.icon-link:hover path {
+  fill: #B289E8;
+}
+
 .down,
 .header-icons .icon {
     color: #fff;
