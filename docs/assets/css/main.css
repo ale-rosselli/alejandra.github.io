@@ -134,6 +134,14 @@ img.center {
   margin-top: 80px;
 }
 
+.profile-pic {
+  /* width: 150px;   */       
+  height: 100px;
+  border-radius: 50%;
+  /* object-fit: cover;    /* keeps it circular without stretching */
+}
+
+
 svg:not(:root) {
     overflow: hidden
 }
