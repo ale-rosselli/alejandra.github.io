@@ -4962,7 +4962,7 @@ a img {
   font-size: 30px;              
   display: inline-flex;
   align-items: center;
-  transition: all .7s;
+  transition: fill .7s ease, stroke .7s ease;
 }
 
 .header-icons .icon-svg:hover {
