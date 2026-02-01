@@ -4918,11 +4918,23 @@ a img {
 
 
 .header2 .site-title {
-    font-size: 15px;
+    font-size: 40px;
     display: block;
     margin-top: 10px;
     line-height: 1;
     color: #fff;
+}
+
+.header2 .header-links {
+    z-index: 2;
+    margin: 15px
+}
+
+.header2 .header-links .link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 10px
 }
 
 @media only screen and (min-width:550px) {
