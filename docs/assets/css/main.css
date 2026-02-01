@@ -4962,6 +4962,7 @@ a img {
   font-size: 30px;              
   display: inline-flex;
   align-items: center;
+  transition: all .7s;
 }
 
 .header-icons .icon-svg:hover {
@@ -5201,7 +5202,7 @@ a img {
     background-color: #B289E8;
     border-color: #B289E8;
     color: #fff;
-    transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
+    
 }
 
 .footer {
