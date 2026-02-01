@@ -4927,13 +4927,13 @@ a img {
 
 .header2 .header-links {
     z-index: 2;
-    margin: 15px
+    margin: 30px
 }
 
 .header2 .header-links .link {
     color: #fff;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 30px;
     margin: 10px
 }
 
