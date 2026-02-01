@@ -4898,6 +4898,33 @@ a img {
     color: #fff;
 }
 
+.header2 {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    color: #fff;
+    position: absolute;
+    font-family: 'Fraunces';
+    width: 80%;
+    min-height: 20vh;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+
+.header2 .site-title {
+    font-size: 15px;
+    display: block;
+    margin-top: 10px;
+    line-height: 1;
+    color: #fff;
+}
+
 @media only screen and (min-width:550px) {
     .header .site-title {
         margin: 0;
