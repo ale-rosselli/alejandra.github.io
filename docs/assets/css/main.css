@@ -4905,7 +4905,7 @@ a img {
     text-align: center;
     align-items: center; 
     color: #fff;
-    position: sticky;
+    position: absolute;
     font-family: 'Fraunces';
     width: 80%;
     min-height: 20vh;
@@ -4920,7 +4920,7 @@ a img {
 .header2 .site-title {
     font-size: 40px;
     display: block;
-    margin-top: 20px;
+    margin-top: 120px;
     line-height: 1;
     color: #fff;
 }
