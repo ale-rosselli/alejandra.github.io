@@ -4942,6 +4942,7 @@ a img {
   height: 2.3em;
   fill: currentColor;     
   display: block;
+  transition: all .7s;
 }
 
 .header-icons {
