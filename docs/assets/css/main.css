@@ -4882,6 +4882,32 @@ a img {
     pointer-events: none;
 }
 
+
+#particles-js2 {
+    background: #051634;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(90deg, #051634 0%, #000000 50%, #051634 100%);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(90deg, #051634 0%, #000000 50%, #051634 100%);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    vertical-align: bottom;
+    width: 100%;
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
+#particles-js2 .particles-js-canvas-el {
+    width: 100% !important;
+    height: 30% !important;
+    pointer-events: none;
+}
+
+
 .header {
     z-index: 1;
     display: flex;
