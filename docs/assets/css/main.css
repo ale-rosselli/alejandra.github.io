@@ -5168,7 +5168,7 @@ a img {
 
 @media only screen and (min-width:550px) {
     #research {
-        padding-top: 20px
+        padding-top: 20px;
         width: 90%
     }
 }
