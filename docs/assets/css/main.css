@@ -136,7 +136,7 @@ img.center {
 
 .profile-pic {
   /* width: 150px;   */       
-  height: 200px;
+  height: 300px;
   border-radius: 50%;
   display: block;
   margin: 0 auto; 
@@ -5215,7 +5215,7 @@ a img {
     }
 
     .images-right {
-        margin-top: 5%;
+        margin-top: 10px;
         float: right;
         width: 45%
     }
@@ -5225,7 +5225,7 @@ a img {
     }
 
     .images-left {
-        margin-top: 5%;
+        margin-top: 10px;
         float: left;
         width: 45%
     }
