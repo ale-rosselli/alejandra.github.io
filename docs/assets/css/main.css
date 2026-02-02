@@ -5216,12 +5216,10 @@ a img {
 
     .images-right {
         margin-top: 10px;
-        float: right;
         width: 45%
     }
 
     .images-right img {
-        float: right
     }
 
     .images-left {
