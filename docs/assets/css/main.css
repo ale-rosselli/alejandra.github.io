@@ -5235,13 +5235,13 @@ a img {
     .contents,
     .contents-right {
         float: right;
-        margin-top: 5%;
+        margin-top: 5px;
         width: 45%;
         margin-right: 5%;
     }
 
     .images-right {
-        margin-top: 10px;
+        margin-top: 2px;
         width: 45%
     }
 
@@ -5249,7 +5249,7 @@ a img {
     }
 
     .images-left {
-        margin-top: 10px;
+        margin-top: 2px;
         width: 45%
     }
 
