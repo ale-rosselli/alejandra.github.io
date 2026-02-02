@@ -136,8 +136,11 @@ img.center {
 
 .profile-pic {
   /* width: 150px;   */       
-  height: 100px;
+  height: 200px;
   border-radius: 50%;
+  display: block;
+  margin: 0 auto; 
+  margin-top: 80px;
   /* object-fit: cover;    /* keeps it circular without stretching */
 }
 
