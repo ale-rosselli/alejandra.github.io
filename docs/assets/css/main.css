@@ -4903,7 +4903,7 @@ a img {
 
 #particles-js2 .particles-js-canvas-el {
     width: 100% !important;
-    height: 30% !important;
+    height: 100% !important;
     pointer-events: none;
 }
 
