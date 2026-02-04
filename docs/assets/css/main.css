@@ -4944,7 +4944,7 @@ a img {
     text-align: center;
     align-items: center; 
     color: #fff;
-    position: absolute;
+    position: relative;
     font-family: 'Fraunces';
     width: 80%;
     min-height: 20vh;
