@@ -5294,6 +5294,7 @@ a img {
     margin-top: 100px;
     text-align: center;
     color: #fff;
+    outline: 3px solid red;
     /*-webkit-transform: translate(-15%, -15%);
     transform: translate(-15%, -15%)*/
 }
