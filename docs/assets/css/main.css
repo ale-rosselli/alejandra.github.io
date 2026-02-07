@@ -5295,6 +5295,7 @@ a img {
     text-align: center;
     color: #fff;
     align-self: stretch;
+    width: 100%;
     /*-webkit-transform: translate(-15%, -15%);
     transform: translate(-15%, -15%)*/
 }
