@@ -4893,7 +4893,8 @@ a img {
     position: relative; 
     display: flex;
     width: 100%;
-    height:40vh;
+    height: 400px !important;
+    background: red; /* debugging */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
