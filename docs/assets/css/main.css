@@ -4985,12 +4985,12 @@ a img {
     margin-top: 10px
 }
 
-@media only screen and (min-width:550px) {
+/* @media only screen and (min-width:550px) {
     .header .site-title {
         margin: 0;
         font-size: 80px
     }
-}
+} */
 
 .header .site-description {
     font-size: 20px;
@@ -5000,11 +5000,11 @@ a img {
     margin-top: 30px;
 }
 
-@media only screen and (min-width:550px) {
+/*@media only screen and (min-width:550px) {
     .header .site-description {
         font-size: 35px
     }
-}
+}*/
 
 .header-links {
     z-index: 2;
@@ -5018,11 +5018,11 @@ a img {
     margin: 10px
 }
 
-@media only screen and (min-width:550px) {
+/*@media only screen and (min-width:550px) {
     .header-links .link {
         font-size: 20px
     }
-}
+}*/
 
 .header-icons .icon-svg {
   width: 2.3em;
@@ -5111,13 +5111,13 @@ a img {
     background: transparent;
 }
 
-@media only screen and (min-width:550px) {
+/*@media only screen and (min-width:550px) {
     .header-icons .icon {
         width: 35px;
         height: 35px;
         font-size: 35px
     }
-}
+}*/
 
 .down {
     position: absolute;
@@ -5203,12 +5203,12 @@ a img {
     margin: 0 auto
 }
 
-@media only screen and (min-width:550px) {
+/*@media only screen and (min-width:550px) {
     #research {
         padding-top: 20px;
         width: 90%
     }
-}
+}*/
 
 .user-projects {
     margin: 20px auto;
@@ -5237,11 +5237,11 @@ a img {
     margin-right: 5px
 }
 
-@media only screen and (min-width:550px) {
+/*@media only screen and (min-width:550px) {
     .contents {
         margin-left: 5%;
         width: 45%
-    }
+    }*/
 
     .contents,
     .contents-right {
