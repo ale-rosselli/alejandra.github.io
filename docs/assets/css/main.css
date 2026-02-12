@@ -5007,11 +5007,11 @@ a img {
     margin-top: 30px;
 }
 
-/*@media only screen and (min-width:550px) {
+@media only screen and (min-width:550px) {
     .header .site-description {
         font-size: 35px
     }
-}*/
+}
 
 .header-links {
     z-index: 2;
