@@ -5032,8 +5032,8 @@ a img {
 }*/
 
 .header-icons .icon-svg {
-  width: 2.3em;
-  height: 2.3em;
+  width: 2.em;
+  height: 2.em;
   fill: currentColor;     
   display: block;
   transition: all .7s;
@@ -5118,13 +5118,20 @@ a img {
     background: transparent;
 }
 
-/*@media only screen and (min-width:550px) {
+@media only screen and (min-width:550px) {
     .header-icons .icon {
         width: 35px;
         height: 35px;
         font-size: 35px
     }
-}*/
+}
+
+@media only screen and (min-width:550px) {
+    .header-icons .icon-svg {
+        width: 2.3em;
+        height: 2.3em;
+    }
+}
 
 .down {
     position: absolute;
