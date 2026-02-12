@@ -4938,6 +4938,13 @@ a img {
     color: #fff;
 }
 
+.finisher-header {
+    position: relative;   
+    width: 100%;         
+    height: 40vh;         
+    z-index: 0;          
+}
+
 .header2 {
     z-index: 1;
     display: flex;
