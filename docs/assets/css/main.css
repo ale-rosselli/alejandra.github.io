@@ -4985,12 +4985,19 @@ a img {
     margin-top: 10px
 }
 
-/* @media only screen and (min-width:550px) {
+ @media only screen and (min-width:550px) {
     .header .site-title {
         margin: 0;
         font-size: 80px
     }
-} */
+} 
+
+@media only screen and (min-width:550px) {
+    .header2 .site-title {
+        margin: 0;
+        font-size: 40px
+    }
+} 
 
 .header .site-description {
     font-size: 20px;
