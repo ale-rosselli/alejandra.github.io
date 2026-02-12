@@ -4956,7 +4956,7 @@ a img {
     font-family: 'Fraunces';
     width: 80%;
     min-height: 20vh;
-    top: 12%;
+    top: 50%;
     left: 50%;
     margin: 0 auto;
     -webkit-transform: translate(-50%, -50%);
@@ -4967,14 +4967,15 @@ a img {
 .header2 .site-title {
     font-size: 40px;
     display: block;
-    margin-top: 150px;
+    margin: 0 0 15px 0;  
     line-height: 1;
     color: #fff;
 }
 
 .header2 .header-links {
     z-index: 2;
-    margin: 15px
+    margin: 15px;
+    display: flex;
 }
 
 .header2 .header-links .link {
