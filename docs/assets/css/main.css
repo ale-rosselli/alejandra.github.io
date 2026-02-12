@@ -4959,8 +4959,8 @@ a img {
     top: 50%;
     left: 50%;
     margin: 0 auto;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%)
 }
 
 
@@ -4995,7 +4995,7 @@ a img {
 @media only screen and (min-width:550px) {
     .header2 .site-title {
         margin: 0;
-        font-size: 40px
+        font-size: 50px
     }
 } 
 
