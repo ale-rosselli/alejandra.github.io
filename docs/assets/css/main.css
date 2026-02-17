@@ -4955,7 +4955,7 @@ a img {
     left: 50%;
     margin: 0 auto;
     -webkit-transform: translate(-50%, 15%);
-    transform: translate(-50%, 15%)
+    transform: translate(-50%, 0%)
 }
 
 .header2 .finisher-header {
