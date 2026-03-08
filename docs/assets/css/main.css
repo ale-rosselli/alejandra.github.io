@@ -5319,9 +5319,8 @@ a img {
     text-align: center;
     color: #fff;
     align-self: stretch;
-    width: 100%;
-    /*-webkit-transform: translate(-15%, -15%);
-    transform: translate(-15%, -15%)*/
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
 }
 
 .footer .love {
