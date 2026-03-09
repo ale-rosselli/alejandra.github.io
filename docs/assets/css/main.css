@@ -4913,6 +4913,7 @@ a img {
 @media (max-width: 550px) {
   #particles-js {
     min-height: 100svh;
+    overflow: hidden;
   }
 }
 
