@@ -4876,6 +4876,7 @@ a img {
     background-size: cover;
     background-attachment: fixed;
     z-index: 0;
+    position: relative;
 }
 
 #particles-js .particles-js-canvas-el {
@@ -4900,6 +4901,7 @@ a img {
     background-size: cover;
     background-attachment: fixed;
     z-index: 0;
+    position: relative;
 }
 
 #particles-js2 .particles-js-canvas-el {
