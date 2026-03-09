@@ -4919,6 +4919,13 @@ a img {
   }
 }
 
+@media (max-width: 550px) {
+  #particles-js2 {
+    min-height: 100svh;
+    overflow: hidden;
+  }
+}
+
 
 
 
