@@ -21,7 +21,9 @@ body {
     color: #F5F5F5;
     font-family: 'Nunito Sans', sans-serif;
 }
-
+html, body {
+  overflow-x: hidden;
+}
 article,
 aside,
 details,
