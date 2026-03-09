@@ -4910,6 +4910,14 @@ a img {
     z-index: 10;
 }
 
+@media (max-width: 768px) {
+  #particles-js {
+    min-height: 100svh;
+  }
+}
+
+
+
 
 .header {
     z-index: 1;
