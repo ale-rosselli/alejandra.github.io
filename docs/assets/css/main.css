@@ -5272,6 +5272,11 @@ a img {
     margin-right: 5px
 }
 
+.contents {
+        margin-left: 5%;
+        width: 90%
+    }
+
 @media only screen and (min-width:550px) {
     .contents {
         margin-left: 5%;
