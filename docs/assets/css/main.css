@@ -5271,17 +5271,18 @@ a img {
 .user-projects p {
     margin-right: 5px
 }
-
-.user-projects {
-    flex-direction: column;
-    text-align: center;
-  }
-
-.images-left,
-.images-right,
-.contents,
-.contents-right {
-    width: 100%;
+@media only screen and (max-width: 550px) {
+    .user-projects {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+    .images-left,
+    .images-right,
+    .contents,
+    .contents-right {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width:550px) {
