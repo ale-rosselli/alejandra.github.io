@@ -5286,6 +5286,19 @@ a img {
 }
 
 @media only screen and (min-width:550px) {
+     .user-projects {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .images-left {
+        order: 2;
+    }
+
+    .contents-right {
+        order: 1;
+    }
+    
     .contents {
         margin-left: 5%;
         width: 45%
