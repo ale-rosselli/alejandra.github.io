@@ -5293,6 +5293,20 @@ a img {
 .user-projects p {
     margin-right: 5px
 }
+
+.user-projects .project-content {
+  max-height: 0;          
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+  padding: 0 15px;       
+}
+
+.user-projects.active .project-content {
+  max-height: 1000px;     
+  padding: 15px;          
+}
+
+
 @media only screen and (max-width: 550px) {
     .user-projects {
         flex-direction: column;
@@ -5348,6 +5362,35 @@ a img {
 
     .images-left img {
     }
+}
+
+.project-toggle {
+  width: 100%;
+  text-align: left;
+  background: #111;       /* dark header background */
+  border: none;
+  padding: 15px;
+  font-size: 1.2em;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.3s;
+}
+
+.project-toggle:hover {
+  background: #222;
+}
+
+/* arrow indicator */
+.project-toggle::after {
+  content: '▼';
+  position: absolute;
+  right: 20px;
+  transition: transform 0.3s;
+}
+
+.user-projects.active .project-toggle::after {
+  transform: rotate(-180deg);
 }
 
 .project-link {
