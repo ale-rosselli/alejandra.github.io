@@ -4964,7 +4964,7 @@ a img {
     z-index: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     align-items: center; 
     color: #fff;
@@ -4972,8 +4972,8 @@ a img {
     font-family: 'Fraunces';
     width: 100%;
     min-height: 20vh;
-    position: relative;
     top: 0%;
+    padding-top: 20px;
     left: 50%;
     margin: 0 auto;
     -webkit-transform: translate(-50%, 0%);
