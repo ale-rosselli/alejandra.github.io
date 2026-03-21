@@ -5296,8 +5296,7 @@ a img {
 
 .user-projects .project-content {
   display: block;        
-  width: 100%;           
-  box-sizing: border-box; 
+  width: 100%;            
   max-height: 0;          
   overflow: hidden;
   transition: max-height 0.4s ease, padding 0.3s ease;
@@ -5368,6 +5367,7 @@ a img {
 }
 
 .project-toggle {
+  display: block;
   width: 100%;
   text-align: left;
   background: none;       
