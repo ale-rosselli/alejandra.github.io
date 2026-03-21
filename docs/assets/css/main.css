@@ -5302,8 +5302,8 @@ a img {
 }
 
 .user-projects.active .project-content {
-  max-height: 1000px;     
-  padding: 15px;          
+  max-height: 2000px;     
+  padding: 20px;          
 }
 
 
@@ -5367,9 +5367,9 @@ a img {
 .project-toggle {
   width: 100%;
   text-align: left;
-  background: #111;       /* dark header background */
+  background: none;       
   border: none;
-  padding: 15px;
+  padding: 15px 0;
   font-size: 1.2em;
   color: #fff;
   cursor: pointer;
@@ -5385,7 +5385,7 @@ a img {
 .project-toggle::after {
   content: '▼';
   position: absolute;
-  right: 20px;
+  right: 0px;
   transition: transform 0.3s;
 }
 
