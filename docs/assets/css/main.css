@@ -4963,14 +4963,16 @@ a img {
 .header2 {
     z-index: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center; 
     color: #fff;
     position: absolute;
     font-family: 'Fraunces';
-    width: 80%;
+    width: 100%;
     min-height: 20vh;
+    position: relative;
     top: 0%;
     left: 50%;
     margin: 0 auto;
@@ -4978,7 +4980,7 @@ a img {
     transform: translate(-50%, 0%)
 }
 
-.header2 .finisher-header {
+.header2.finisher-header {
     position: relative;   
     width: 100%;         
     height: 40vh;         
@@ -4995,8 +4997,10 @@ a img {
 
 .header2 .header-links {
     z-index: 2;
-    margin: 15px;
+    margin: 5px;
     display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;          
 }
 
 .header2 .header-links .link {
@@ -5013,12 +5017,26 @@ a img {
     }
 } 
 
-@media only screen and (min-width:550px) {
-    .header2 .site-title {
-        margin: 0;
-        font-size: 50px
+
+
+@media only screen and (max-width: 550px) {
+    .header2 {
+        min-height: 180px;
+        padding: 20px 10px;
     }
-} 
+
+    .header2 .site-title {
+        font-size: 24px;
+    }
+
+    .header2 .header-links {
+        flex-direction: column;  
+    }
+
+    .header2 .header-links .link {
+        font-size: 16px;
+    }
+}
 
 .header .site-description {
     font-size: 20px;
