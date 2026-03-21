@@ -5270,7 +5270,7 @@ a img {
 .user-projects {
     margin: 20px auto;
     padding-top: 20px;
-    display: flex;
+    display: block;
     align-items: center;   
 }
 
@@ -5295,6 +5295,9 @@ a img {
 }
 
 .user-projects .project-content {
+  display: block;        
+  width: 100%;           
+  box-sizing: border-box; 
   max-height: 0;          
   overflow: hidden;
   transition: max-height 0.4s ease, padding 0.3s ease;
