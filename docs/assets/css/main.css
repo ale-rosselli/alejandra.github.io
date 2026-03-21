@@ -5038,6 +5038,7 @@ a img {
     .header2 .header-links .link {
         width: 45%;  
         text-align: center;
+        font-size: 14px;
     }
 }
 
