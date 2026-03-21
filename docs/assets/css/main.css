@@ -5026,7 +5026,7 @@ a img {
     }
 
     .header2 .site-title {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .header2 .header-links {
@@ -5038,7 +5038,7 @@ a img {
     .header2 .header-links .link {
         width: 45%;  
         text-align: center;
-        font-size: 14px;
+        font-size: 20px;
     }
 }
 
