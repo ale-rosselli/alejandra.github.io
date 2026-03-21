@@ -5030,11 +5030,14 @@ a img {
     }
 
     .header2 .header-links {
-        flex-direction: column;  
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
     }
 
     .header2 .header-links .link {
-        font-size: 14px;
+        width: 45%;  
+        text-align: center;
     }
 }
 
