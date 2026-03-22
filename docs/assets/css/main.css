@@ -5383,6 +5383,7 @@ a img {
   cursor: pointer;
   position: relative;
   transition: background 0.3s;
+  font-family: inherit;
 }
 
 .research-page .project-toggle:hover {
