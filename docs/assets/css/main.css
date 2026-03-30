@@ -5256,7 +5256,6 @@ a img {
     align-items: center;
     padding-top: 20px;
     width: 90%;
-    max-width: 960px;
     margin: 0 auto
 }
 
@@ -5264,6 +5263,7 @@ a img {
     #research {
         padding-top: 20px;
         width: 90%
+max-width: 960px;
     }
 }*/
 
