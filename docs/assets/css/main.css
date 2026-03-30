@@ -5270,7 +5270,7 @@ max-width: 960px;
 .user-projects {
     margin: 20px auto;
     padding-top: 20px;
-    display: flex;
+    display: block;
     align-items: center;   
 }
 
@@ -5328,7 +5328,7 @@ max-width: 960px;
     }
 }
 
-@media only screen and (min-width:550px) {
+/*@media only screen and (min-width:550px) {
      .user-projects {
         flex-direction: row;
         justify-content: space-between;
@@ -5369,7 +5369,7 @@ max-width: 960px;
 
     .images-left img {
     }
-}
+}*/
 
 .research-page .project-toggle {
   display: block;
