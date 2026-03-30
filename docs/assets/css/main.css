@@ -5271,7 +5271,9 @@ max-width: 960px;
     margin: 20px auto;
     padding-top: 20px;
     display: flex;
-    align-items: center;   
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
 }
 
 .user-projects img {
@@ -5343,20 +5345,18 @@ max-width: 960px;
     }
     
     .contents {
-        margin-left: 5%;
-        width: 45%
+        width: 50%
     }
 
     .contents,
     .contents-right {
         margin-top: 5px;
-        width: 45%;
-        margin-right: 5%;
+        width: 50%;
     }
 
     .images-right {
         margin-top: 2px;
-        width: 45%
+        width: 50%
     }
 
     .images-right img {
@@ -5364,7 +5364,7 @@ max-width: 960px;
 
     .images-left {
         margin-top: 2px;
-        width: 45%
+        width: 50%
     }
 
     .images-left img {
