@@ -5209,14 +5209,14 @@ a img {
 }
 
 #about {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     max-width: 960px
 }
 
 @media only screen and (min-width:550px) {
     #about {
-        width: 80%
+        width: 90%
     }
 }
 
