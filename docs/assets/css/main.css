@@ -5279,7 +5279,7 @@ max-width: 960px;
   justify-content: space-between;
   gap: 12px;
   width: 90%;
-  height: 100%;
+  height: auto;
   overflow: hidden;
 }
 
