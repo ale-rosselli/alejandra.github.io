@@ -4993,6 +4993,8 @@ a img {
     margin: 0 0 10px 0;  
     line-height: 1;
     color: #fff;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .header2 .header-links {
