@@ -5268,6 +5268,20 @@ max-width: 960px;
     }
 }*/
 
+.research-card-column {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  overflow: hidden;
+}
+
 .user-projects {
     margin: 20px auto;
     padding-top: 20px;
