@@ -5282,6 +5282,21 @@ max-width: 960px;
   overflow: hidden;
 }
 
+.research-cards-container {
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
+@media (min-width: 550px) {
+  .research-cards-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .user-projects {
     margin: 20px auto;
     padding-top: 20px;
