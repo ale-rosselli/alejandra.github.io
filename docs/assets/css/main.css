@@ -5307,6 +5307,10 @@ max-width: 960px;
   }
 }
 
+.research-card-column h3 {
+  color: var(--card-color, #000);
+}
+
 .user-projects {
     margin: 20px auto;
     padding-top: 20px;
