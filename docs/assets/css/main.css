@@ -5283,7 +5283,8 @@ max-width: 960px;
 }
 
 .research-cards-container {
-  gap: 20px;
+  row-gap: 20px;
+  column-gap: 30px;
   max-width: 900px;
   margin: 0 auto;
   display: grid;
