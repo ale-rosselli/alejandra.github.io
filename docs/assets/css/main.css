@@ -5278,7 +5278,8 @@ max-width: 960px;
   flex-direction: column;
   justify-content: space-between;
   gap: 12px;
-  width: 80%;
+  width: 90%;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -5289,6 +5290,7 @@ max-width: 960px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
+  align-items: stretch;
 }
 
 
