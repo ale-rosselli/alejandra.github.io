@@ -5269,8 +5269,8 @@ max-width: 960px;
 }*/
 
 .research-card-column {
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.06);
+  background: transparent;
+  border: 2px solid var(--card-color, #ccc);
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   padding: 16px;
