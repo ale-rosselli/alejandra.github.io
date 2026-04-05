@@ -5293,6 +5293,13 @@ max-width: 960px;
   align-items: stretch;
 }
 
+.research-card-column img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 
 @media (min-width: 550px) {
   .research-cards-container {
