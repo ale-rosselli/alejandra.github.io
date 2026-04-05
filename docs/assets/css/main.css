@@ -5285,7 +5285,7 @@ max-width: 960px;
 .research-cards-container {
   row-gap: 20px;
   column-gap: 30px;
-  max-width: 900px;
+  max-width: 100%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
