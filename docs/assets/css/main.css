@@ -5102,7 +5102,6 @@ a img {
   font-size: 30px;              
   display: inline-flex;
   align-items: center;
-  transition: fill .7s ease, stroke .7s ease;
 }
 
 .header-icons .icon-svg:hover {
@@ -5112,6 +5111,11 @@ a img {
 
 .icon-svg path {
   fill: #ffffff;
+  transition: fill .7s ease, stroke .7s ease;
+}
+
+.icon-svg circle {
+  transition: stroke 0.7s ease;
 }
 
 .icon-link:hover path {
