@@ -5318,11 +5318,19 @@ max-width: 960px;
   padding: 10px;              
   border-radius: 12px;        
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); 
+  aspect-ratio: 1 / 1;   
+  display: flex;
+  align-items: center;   
+  justify-content: center; 
+
+  overflow: hidden;      
 }
 
 .image-frame img {
   width: 100%;
   height: auto;
+  display: block;
+  object-fit: contain;
   display: block;
   border-radius: 8px; 
 }
