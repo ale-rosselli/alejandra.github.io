@@ -5313,6 +5313,20 @@ max-width: 960px;
   color: var(--card-color, #000);
 }
 
+.image-frame {
+  background: white;
+  padding: 10px;              
+  border-radius: 12px;        
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); 
+}
+
+.image-frame img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px; 
+}
+
 .user-projects {
     margin: 20px auto;
     padding-top: 20px;
