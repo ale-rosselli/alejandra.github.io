@@ -5115,7 +5115,13 @@ a img {
 }
 
 .icon-svg circle {
+  fill: transparent;
   transition: stroke 0.7s ease;
+}
+
+.icon-link:hover circle {
+  fill: #ffffff;
+  stroke: #B289E8;
 }
 
 .icon-link:hover path {
