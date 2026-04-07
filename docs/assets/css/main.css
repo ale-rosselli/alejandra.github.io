@@ -5308,6 +5308,12 @@ max-width: 960px;
   align-items: stretch;
 }
 
+.research-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block; 
+}
+
 .research-card-column img {
   width: 100%;
   height: auto; 
