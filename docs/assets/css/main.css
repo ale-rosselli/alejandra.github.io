@@ -5313,7 +5313,7 @@ max-width: 960px;
   border-radius: 8px;
 }
 
-.research-card-column:hover {
+.research-card-container:hover {
   transform: translateY(-6px); 
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08); 
 
