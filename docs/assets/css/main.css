@@ -5337,6 +5337,11 @@ max-width: 960px;
   color: var(--card-color, #000);
 }
 
+.research-content {
+  width: 100%;
+  max-width: 960px;
+}
+
 .image-frame {
   background: white;
   padding: 10px;              
