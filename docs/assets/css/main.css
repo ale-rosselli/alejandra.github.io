@@ -5529,11 +5529,12 @@ max-width: 960px;
 .outreach-card-container {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap; 
 }
 
 .outreach-card {
   position: relative;
-  width: 33.33%;
+  width: calc(33.333% - 13.33px);
   overflow: hidden;
   cursor: pointer;
 }
@@ -5576,6 +5577,7 @@ max-width: 960px;
 @media (max-width: 550px) {
   .outreach-card-container {
     flex-direction: column;
+    gap: 20px;
   }
 
   .outreach-card {
