@@ -5573,6 +5573,16 @@ max-width: 960px;
   opacity: 1;
 }
 
+@media (max-width: 550px) {
+  .outreach-card-container {
+    flex-direction: column;
+  }
+
+  .outreach-card {
+    width: 100%;
+  }
+}
+
 .footer {
     background: #000000;
     /* fallback for old browsers 
