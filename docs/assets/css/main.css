@@ -5541,8 +5541,8 @@ max-width: 960px;
 
 .outreach-card img {
   width: 100%;
-  height: 300px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   transition: transform 0.4s ease, filter 0.4s ease;
 }
 
